@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Visby";
+    src: url(fonts/visby-round-cf-demi-bold.otf) format('opentype');
+    font-weight: semi-bold;
+    font-style: normal;
+}
+    
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(blob-scatter-haikei.svg);
+    position: fixed;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Visby';
+    color:white;
+    font-size: 128px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: 'Visby';
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    margin:0;
+}
+.text {
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    color:white;
+}
+#display, #display2 {
+        font-family: 'Visby';
+        width: 370px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right:10px;
+        margin-bottom: 50px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+h2 {
+    font-family: 'Visby';
+    float: left;
+}
+
+#randomizeBtn {
+        font-family: 'Visby';
+        background-color: #AF69EF;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 75px;
+        clear: both;
+      }
+
+#randomizeBtn:hover {
+        background-color: #5a2a88
+      }
+
+.credits {
+    margin-top: 6%;
+    color: #c09be3;
+    font-size: 1em;
+}
